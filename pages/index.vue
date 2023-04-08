@@ -1,9 +1,9 @@
 <template>
-  <h1>My first Vue / Nuxt app</h1>
+  <div class="">
+    <h1>My first Vue / Nuxt app</h1>
+    <nuxt-link to="/users"> Users </nuxt-link>
+  </div>
 </template>
 
 <script>
-export default {
-  name: 'IndexPage'
-}
 </script>
