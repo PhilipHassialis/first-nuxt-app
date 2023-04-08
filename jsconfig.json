@@ -8,5 +8,9 @@
       "@@/*": ["./*"]
     }
   },
-  "exclude": ["node_modules", ".nuxt", "dist"]
+  "exclude": ["node_modules", ".nuxt", "dist"],
+  "vueCompilerOptions": {
+    "target": 2.7,
+    // "target": 2, // For Vue version <= 2.6.14
+  }
 }
