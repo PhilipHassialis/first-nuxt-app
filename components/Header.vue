@@ -30,4 +30,14 @@
   align-items: center;
   width: 80%;
 }
+
+.nav-items a {
+  text-decoration: none;
+  color: #000f;
+}
+
+.nav-items a:hover,
+.nav-items a.active {
+  color: #59f;
+}
 </style>
